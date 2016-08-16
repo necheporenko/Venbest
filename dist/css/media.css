@@ -1,0 +1,142 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.main-menu{
+	margin-left: 0;
+}
+.main-menu li{
+padding: 6px 10px;
+}
+.phonebutton .phone{
+font-size: 1.775rem;
+}
+.phonebutton .phone span::after{
+left: 60%;
+}
+	}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.nav-toggle{
+	display: block;
+	padding: 50px;
+}
+.main-menu,.phonebutton{
+	display: none;
+}
+.main-logo img{
+width: 80px;
+height: 80px;
+margin-top: 10px;
+}
+.phone-sm{
+	display: block;
+}
+	}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.why-we{
+	padding: 45px 0;
+}
+.wrap-why-we{
+	text-align: center;
+}
+.services{
+	padding: 45px 0;
+}
+.clients{
+	padding: 45px 0;
+}
+.how-work{
+	padding: 45px 0;
+}
+.document{
+	padding: 45px 0;
+}
+	.image-doc{
+		display: block;
+		margin: 0 auto;
+	}
+.contacts{
+	padding: 45px 0;
+}
+.footer{
+	padding: 45px 0;
+}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.why-we{
+	padding: 30px 0;
+}
+.services{
+	padding: 30px 0;
+}
+.clients{
+	padding: 30px 0;
+}
+.how-work{
+	padding: 30px 0;
+}
+.document{
+	padding: 30px 0;
+}
+	.image-doc {
+	    width: 300px;
+	  }
+.contacts{
+	padding: 30px 0;
+}
+.footer{
+	padding: 30px 0;
+}
+.loader_inner {
+	left: 35%;
+	top: 15%;
+}
+.phone-sm{
+	margin-left: -40px;
+}
+	}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

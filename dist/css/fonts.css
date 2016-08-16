@@ -1,0 +1,32 @@
+  @font-face {
+    font-family: "OpenSansBold";
+    font-style: 700;
+    font-weight: normal;
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype"),
+    url(../fonts/OpenSansBold/OpenSansBold.woff) format("woff");
+  }
+  @font-face {
+    font-family: "OpenSansSemiBold";
+    font-style: 600;
+    font-weight: normal;
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype"),
+    url(../fonts/OpenSansSemiBold/OpenSansSemiBold.woff) format("woff");
+  }
+  @font-face {
+    font-family: "OpenSansRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype"),
+    url(../fonts/OpenSansRegular/OpenSansRegular.woff) format("woff");
+  }
+  @font-face {
+    font-family: "OpenSansLight";
+    font-style: 300;
+    font-weight: normal;
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype"),
+    url(../fonts/OpenSansLight/OpenSansLight.woff) format("woff");
+  }
